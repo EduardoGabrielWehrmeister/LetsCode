@@ -10,7 +10,6 @@ namespace aula01Ambev.Model.Clientes
         public Endereco Endereco { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
-        public bool EhPf => Documento.Length == 11;
         public virtual void VerificaDocumento(string Documento) { }    
    }
 }
